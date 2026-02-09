@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - My Cat Control</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body class="auth-page">
+
+    <div class="auth-card">
+        <header class="auth-header">
+            <span class="cat-icon">🐈‍⬛</span>
+            <h1>Crie sua conta</h1>
+            <p>Comece a cuidar melhor do seu gatinho hoje!</p>
+        </header>
+
+        <form id="registroForm">
+            <div class="input-group">
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome" placeholder="Seu nome" required>
+            </div>
+
+            <div class="input-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="exemplo@email.com" required>
+            </div>
+
+            <div class="input-group">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" placeholder="Crie uma senha forte" required>
+            </div>
+
+            <button type="submit" class="btn-main">Cadastrar</button>
+        </form>
+
+        <footer class="auth-footer">
+            <p>Já tem uma conta? <a href="login.html">Entrar</a></p>
+            <a href="index.html" class="back-link">← Voltar para o início</a>
+        </footer>
+    </div>
+
+</body>
+</html>
